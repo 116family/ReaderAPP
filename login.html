@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> 文章APP </title>
+	<link rel="stylesheet" href="css/lyf-css/login.css">
+	<link rel="stylesheet" href="css/lyf-css/base.css">
+	<script src="js/lyf-js/function.js"></script>
+	<script src="js/lyf-js/login.js"></script>
+	<script type="text/javascript">
+    	
+   		(function (doc, win) {
+        	var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                
+//              750 代表设计稿的宽度,设计稿多款,他就改成多大
+//              if(clientWidth>=750){
+//                  docEl.style.fontSize = '100px';
+//              }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+//              }
+            };
+
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+   		
+    </script>
+</head>
+<body>
+	<div class="login">
+		<ul class="status"><img src="img/lyf-image/status.png" alt=""></ul>
+		<ul class="logo"><img src="img/lyf-image/login.png" alt=""></ul>
+		<ul class="box">
+			<li>
+				<ol>登录</ol>
+				<div class="xian"></div>
+				<ol>注册</ol>
+			</li>
+			<li>
+				<ol style="z-index: 2">
+					<div class="tel">手机号码</div>
+					<div class='pwd'>填写密码</div>
+					<div class="log"><a href="zx1.html">登录</a></div>
+					<div class="forget"><a>忘记密码</a></div>
+				</ol>
+				<ol>
+					<div class="tel1">手机号码</div>
+					<div class="yanzheng">填写验证码
+						<div class="code">获取验证码</div>
+					</div>
+					<div class="pwd1">填写密码</div>
+					<div class="register">注册并登录</div>
+				</ol>
+			</li>
+			
+		</ul>
+	</div>
+	
+</body>
+</html>

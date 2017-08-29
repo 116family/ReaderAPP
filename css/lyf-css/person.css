@@ -1,0 +1,171 @@
+.login{
+	width: 7.5rem;
+	height: 13.34rem;
+	background: #fff;
+	margin: 0 auto;
+}
+.login .status{
+	width: 100%;
+	height: 0.4rem;
+	/* background: blue; */
+	position: relative;
+}
+.login .status img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.login .top{
+	width: 100%;
+	height: 0.88rem;
+	/* background: blue; */
+	position: relative;
+	border-bottom: 0.01rem solid #E8E8E8;
+}
+.login .top li:first-child{
+	width: 0.23rem;
+	height: 0.39rem;
+	/* background: red; */
+	position: absolute;
+	top: 0.22rem;
+	left: 0.4rem;
+}
+.login .top li:first-child img{
+	position: absolute;
+	top: 0.04rem;
+	left: 0;
+}
+.login .top li:nth-child(2){
+	width: 6.01rem;
+	height: 0.39rem;
+	/* background: yellow; */
+	position: absolute;
+	top: 0.22rem;
+	left: 0.63rem;
+	text-align: center;
+	line-height: 0.39rem;
+	color: #1D1D1D;
+	font-size: 0.28rem;
+}
+.login .top li:last-child{
+	width: 0.39rem;
+	height: 0.39rem;
+	/* background: red; */
+	position: absolute;
+	top: 0.22rem;
+	right: 0.5rem;
+}
+.login .top li:last-child img{
+	position: absolute;
+	top: 0.04rem;
+	right: 0;
+}
+.login .info{
+	width: 7.5rem;
+	height: 1.8rem;
+	/* background: yellow; */
+	border-bottom: 0.01rem solid #E8E8E8;
+}
+.login .info li{
+	width: 6.7rem;
+	height: 100%;
+	/* background: red; */
+	margin: 0 auto;
+	position: relative;
+}
+.login .info li ol:first-child{
+	width: 1.17rem;
+	height: 1.17rem;
+	background-image: url(../../img/lyf-image/photo.png);
+	background-position: 0 -1.85rem;
+	background-size: 1.19rem 1.6rem;
+	position: absolute;
+	left: 0.4rem;
+	top: 0.33rem;
+	border-radius: 50%;
+}
+.login .info li ol:nth-child(2){
+	width: 1.96rem;
+	height: 1.17rem;
+	/* background: blue; */
+	position: absolute;
+	left: 1.57rem;
+	top: 0.33rem;
+}
+.login .info li ol:nth-child(2) a{
+	display: block;
+	font-size: 0.28rem;
+	color: #131212;
+	margin-top: 0.23rem;
+	margin-left: 0.15rem;
+}
+.login .info li ol:nth-child(2) span{
+	display: block;
+	font-size: 0.24rem;
+	color: #626262;
+	margin-left: 0.15rem;
+}
+.login .info li ol:nth-child(3){
+	width: 0.2rem;
+	height: 0.35rem;
+	/* background: pink; */
+	position: absolute;
+	right: 0;
+	top: 0.8rem;
+}
+.login .info li ol:nth-child(3) img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.login .bot{
+	width: 6.87rem;
+	height: 2.64rem;
+	/* background: yellow; */
+	margin: 0.31rem auto 0;
+	border-bottom: 0.01rem solid #D2D2D2;
+}
+.login .bot li{
+	width: 6.7rem;
+	height: 2.46rem;
+	margin: 0 auto;
+	/* background: pink; */
+}
+.login .bot li ol:first-child{
+	width: 3.23rem;
+	height: 100%;
+	/* background: plum; */
+	float: left;
+}
+.login .bot li ol:first-child a{
+	display: block;
+	font-size: 0.2rem;
+	color: #626262;
+	margin-top: 0.06rem;
+}
+.login .bot li ol:first-child span{
+	display: block;
+	font-size: 0.28rem;
+	color: #131212;
+	margin-top: 0.12rem;
+}
+.login .bot li ol:first-child p{
+	display: block;
+	font-size: 0.24rem;
+	color: #626262;
+	margin-top: 0.12rem;
+}
+.login .bot li ol:last-child{
+	width: 3.28rem;
+	height: 1.81rem;
+	/* background: plum; */
+	float: right;
+	margin-top: 0.54rem;
+}
+.login .bot li ol:last-child img{
+	width: 100%;
+	height: 100%;
+}

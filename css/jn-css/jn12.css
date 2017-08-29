@@ -1,0 +1,128 @@
+body{
+	background: #fff;
+	width: 7.5rem;
+	height: 13.34rem;
+	margin: 0 auto;
+}
+.status{
+	width: 100%;
+	height: 0.4rem;
+	background: #fff;
+	background-image: url(../img/jn-image/zhuangtailan.png);
+	background-repeat: no-repeat;
+	background-size: 100% 0.4rem;
+}
+.person{
+	width: 100%;
+	height: 0.89rem;
+	/* background: red; */
+	text-align: center;
+	position: relative;
+}
+.person span{
+	font-size: 0.36rem;
+	color: #1D1D1D;
+	font-weight: 700;
+	position: absolute;
+	left: 3.42rem;
+	top: 0.3rem;
+}
+.person img{
+	width: 0.23rem;
+	height: 0.39rem;
+	font-weight: 700;
+	position: absolute;
+	left: 0.4rem;
+	top: 0.3rem;
+}
+.head{
+	width: 6.70rem;
+	margin: 0 auto;
+	height: 2.26rem;
+	/* background: red; */
+	border-bottom: 0.02rem solid #E8E8E8;
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 0.4rem;
+}
+.heads{
+	border-bottom: none;
+}
+.head .images{
+	float: left;
+	width: 0.58rem;
+	height: 0.58rem;
+	border-radius: 50%;
+	background-image: url(../img/jn-image/1.jpg);
+	background-size: 0.64rem 0.65rem;
+}
+.head .num1{
+	background-image: url(../img/jn-image/2.jpg);
+}
+.head .num2{
+	background-image: url(../img/jn-image/3.jpg);
+}
+.head .num3{
+	background-image: url(../img/jn-image/4.jpg);
+}
+.head .num4{
+	background-image: url(../img/jn-image/5.jpg);
+}
+.head .word{
+	width: 6.13rem;
+	height: 1.64rem;
+	/* background: blue; */
+	margin-left: 0.58rem;
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+
+}
+.head .word span{
+	display: block;
+	float: left;
+	font-size: 0.3rem;
+	color: #1D1D1D;
+	margin-bottom: 0.1rem;
+}
+.head .word i{
+	display: block;
+	float: right;
+	font-size: 0.2rem;
+	color: #B6B6B6;
+	font-style: normal;
+	margin-top: 0.05rem;
+	margin-bottom: 0.1rem;
+}
+.head .word p{
+	float: left;
+	display: block;
+	font-size: 0.26rem;
+	color: #626262;
+}
+.bot{
+	width: 100%;
+	height: 0.81rem;
+	background: #E8E8E8;
+	position: relative;
+	}
+.bot input[type='text']{
+	width: 5.92rem;
+	height: 0.61rem;
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+	border-radius: 0.05rem;
+	font-size: 0.3rem;
+	color: #7C7C7C;
+	position: absolute;
+	left: 0.24rem;
+	top: 0.1rem;
+}
+.bot input[type='submit']{
+	border: none;
+	font-size: 0.34rem;
+	color: #636363;
+	background: #E8E8E8;
+	position: absolute;
+	top: 0.2rem;
+	right: 0.47rem;
+}

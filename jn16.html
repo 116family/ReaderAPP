@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/jn-css/base.css">
+	<link rel="stylesheet" href="css/jn-css/jn16.css">
+	<script type="text/javascript">
+   		(function (doc, win) {
+        	var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                
+//              750 代表设计稿的宽度,设计稿多款,他就改成多大
+//	                if(clientWidth>=750){
+//	                    docEl.style.fontSize = '100px';
+//	                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+//	                }
+            };
+
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+	</script>
+</head>
+<body>
+	<div class="status"></div>
+	<div class="person">
+		<a href=""><img src="img/jn-image/left.png" alt=""></a>
+		<span>设置</span>
+	</div>
+	<div class="head">
+		<span>意见反馈</span>
+		<a href="opinion.html"><img src="img/jn-image/right.png" alt=""></a>
+	</div>
+	<div class="head">
+		<span>给我们打分</span>
+		<a href=""><img src="img/jn-image/right.png" alt=""></a>
+	</div>
+	<div class="head">
+		<span>当前版本</span>
+		<a href=""><img src="img/jn-image/right.png" alt=""></a>
+	</div>
+	<div class="head">
+		<span>清空缓存</span>
+		<a href=""><img src="img/jn-image/right.png" alt=""></a>
+	</div>
+	<div class="exit"><a href="login.html">退出登录</a></div>
+</body>
+</html>
