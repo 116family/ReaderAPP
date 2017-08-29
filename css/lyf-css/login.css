@@ -1,0 +1,190 @@
+.login{
+	width: 7.5rem;
+	height: 13.34rem;
+	background: #F8FFF9;
+	margin: 0 auto;
+}
+.login .status{
+	width: 100%;
+	height: 0.4rem;
+	/* background: blue; */
+	position: relative;
+}
+.login .status img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.login .logo{
+	width: 2.42rem;
+	height: 1.73rem;
+	/* background: green; */
+	float: left;
+	margin-left: 2.54rem;
+	margin-top: 2.17rem;
+}
+.login .logo img{
+	width: 2.42rem;
+	height: 1.73rem;
+}
+.login .box{
+	width: 4.75rem;
+	height: 5.54rem;
+	/* background: lime; */
+	float: left;
+	margin-left: 1.38rem;
+	margin-top: 2.1rem;
+}
+.login .box li:first-child{
+	width: 100%;
+	height: 0.68rem;
+	/* background: plum; */
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #E5E5E5;
+	position: relative;
+}
+.login .box li:first-child ol{
+	width: 1.71rem;
+	/* background: pink; */
+	text-align: center;
+	line-height: 0.68rem;
+	font-size: 0.28rem;
+	color: #535353;
+}
+.login .box li:first-child .xian{
+	width: 1.71rem;
+	height: 0.02rem;
+	background: #3F3F3F;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+/* 登录 */
+.login .box li:nth-child(2){
+	width: 100%;
+	height: 4.8rem;
+	/* background: red; */
+	position: relative;
+	top: 0.01rem;
+}
+.login .box li:nth-child(2) ol:nth-child(1){
+	width: 100%;
+	height: 4.8rem;
+	background: #F8FFF9;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.login .box li:nth-child(2) ol:nth-child(1) .tel{
+	width: 100%;
+	height: 1.08rem;
+	/* background: cyan; */
+	line-height: 1.48rem;
+	font-size: 0.28rem;
+	color: #CDCDCF;
+	border-bottom: 1px solid #E5E5E5;
+}
+.login .box li:nth-child(2) ol:nth-child(1) .pwd{
+	width: 100%;
+	height: 1.07rem;
+	/* background: yellow; */
+	line-height: 1.48rem;
+	font-size: 0.28rem;
+	color: #CDCDCF;
+	border-bottom: 1px solid #E5E5E5;
+}
+.login .box li:nth-child(2) ol:nth-child(1) .log{
+	width: 4.72rem;
+	height: 0.79rem;
+	background: #1D1D1D;
+	margin: 0.59rem auto 0;
+	border-radius: 0.08rem;
+	text-align: center;
+	line-height: 0.79rem;
+	font-size: 0.28rem;
+	color: #fff;
+	border-bottom: none;
+}
+.login .box li:nth-child(2) ol:nth-child(1) .log a{
+	color: #fff;
+}
+.login .box li:nth-child(2) ol:nth-child(1) .forget{
+	width: 100%;
+	height: 0.57rem;
+	/* background: tomato; */
+	line-height: 0.57rem;
+	position: relative;
+	border-bottom: none;
+}
+.login .box li:nth-child(2) ol:nth-child(1) .forget a{
+	display: block;
+	font-size: 0.24rem;
+	color: #6F7270;
+	position: absolute;
+	right: 0;
+}
+/* 注册 */
+.login .box li:nth-child(2) ol:nth-child(2){
+	width: 100%;
+	height: 4.8rem;
+	background: #F8FFF9;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.login .box li:nth-child(2) ol:nth-child(2) .tel1{
+	width: 100%;
+	height: 1.08rem;
+	/* background: cyan; */
+	line-height: 1.48rem;
+	font-size: 0.28rem;
+	color: #CDCDCF;
+	border-bottom: 1px solid #E5E5E5;
+}
+.login .box li:nth-child(2) ol:nth-child(2) .yanzheng{
+	width: 100%;
+	height: 1.08rem;
+	/* background: yellow; */
+	line-height: 1.48rem;
+	font-size: 0.28rem;
+	color: #CDCDCF;
+	position: relative;
+	right: 0.02rem;
+	border-bottom: 1px solid #E5E5E5;
+}
+.login .box li:nth-child(2) ol:nth-child(2) .yanzheng .code{
+	width: 1.8rem;
+	height: 0.79rem;
+	background: #131212;
+	border-radius: 0.05rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	line-height: 0.79rem;
+	font-size: 0.28rem;
+	color: #fff;
+}
+.login .box li:nth-child(2) ol:nth-child(2) .pwd1{
+	width: 100%;
+	height: 1.07rem;
+	/* background: yellow; */
+	line-height: 1.48rem;
+	font-size: 0.28rem;
+	color: #CDCDCF;
+	border-bottom: 1px solid #E5E5E5;
+}
+.login .box li:nth-child(2) ol:nth-child(2) .register{
+	width: 4.72rem;
+	height: 0.79rem;
+	background: #1D1D1D;
+	/* margin-top: 0.59rem; */
+	margin: 0.59rem auto 0;
+	border-radius: 0.08rem;
+	text-align: center;
+	line-height: 0.79rem;
+	font-size: 0.28rem;
+	color: #fff;
+	border-bottom: none;
+}

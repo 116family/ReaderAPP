@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> 文章APP </title>
+	<link rel="stylesheet" href="css/lyf-css/person.css">
+	<link rel="stylesheet" href="css/lyf-css/base.css">
+	<script type="text/javascript">
+    	
+   		(function (doc, win) {
+        	var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                
+//              750 代表设计稿的宽度,设计稿多款,他就改成多大
+//              if(clientWidth>=750){
+//                  docEl.style.fontSize = '100px';
+//              }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+//              }
+            };
+
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+   		
+    </script>
+</head>
+<body>
+	<div class="login">
+		<ul class="status"><img src="img/lyf-image/status.png" alt=""></ul>
+		<ul class="top">
+			<li><a href="zx1.html"><img src="img/lyf-image/fanhui_03.png" alt=""></a></li>
+			<li>个人中心</li>
+			<li><a href="jn16.html"><img src="img/lyf-image/shezhi.png" alt=""></a></li>
+		</ul>
+		<ul class="info">
+			<li>
+				<ol></ol>
+				<ol>
+					<a href="">间谍活动</a>
+					<span>拥有7个收藏</span>
+				</ol>
+				<ol><a href="jn13.html"><img src="img/lyf-image/jiantou.png" alt=""></a></ol>
+			</li>
+		</ul>
+		<ul class="bot">
+			<li>
+				<ol>
+					<a href="">2017/02/20</a>
+					<span>在网页设计中，图片常用的五点技巧...</span>
+					<p>图片在网页中所扮演的角色越来越重要,是最早使用的网页多媒体，图片对于...</p>
+				</ol>
+				<ol><img src="img/lyf-image/img.png" alt=""></ol>
+			</li>
+		</ul>
+		<ul class="bot">
+			<li>
+				<ol>
+					<a href="">2017/01/15</a>
+					<span>在网页设计中，图片常用的三点技巧...</span>
+					<p>图片在网页中所扮演的角色越来越重要,是最早使用的网页多媒体，图片对于网...</p>
+				</ol>
+				<ol><img src="img/lyf-image/img2_03.png" alt=""></ol>
+			</li>
+		</ul>
+		<ul class="bot">
+			<li>
+				<ol>
+					<a href="">2016/10/29</a>
+					<span>在网页设计中，图片常用的五点技巧...</span>
+					<p>图片在网页中所扮演的角色越来越重要,是最早使用的网页多媒体，图片对于网页...</p>
+				</ol>
+				<ol><img src="img/lyf-image/img3_07.png" alt=""></ol>
+			</li>
+		</ul>
+	</div>
+	
+</body>
+</html>
