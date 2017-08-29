@@ -10,7 +10,7 @@
 	width: 2.15rem;
 	height: 1.55rem;
 	margin: 0 auto;
-	background-image: url(../img/lyh-img/logo.png);
+	background-image: url('../../img/lyh-img/logo.png');
 	background-size: 2.15rem 1.55rem;
 	background-repeat: no-repeat;
 	padding-bottom: 1.65rem;
