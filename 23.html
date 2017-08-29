@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>23</title>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/lyh-css/base.css">
+	<link rel="stylesheet" href="css/lyh-css/base (2).css">
+	<link rel="stylesheet" href="css/lyh-css/23.css">
+</head>
+<script type="text/javascript">   	
+   		(function (doc, win) {
+        	var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                
+//              750 代表设计稿的宽度,设计稿多款,他就改成多大
+                if(clientWidth>=750){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                }
+            };
+
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+   		
+    </script>
+<body>
+	<div class="box">
+		<div class="logo"></div>
+		<div class="w-box">
+			<div class="w-box1">
+				<span>给你不一样的设计灵感</span>
+			</div>
+		</div>
+		<a href=""><div class="btn">立即体验</div></a>
+	</div>
+</body>
+</html>

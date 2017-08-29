@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>第20-22张</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/lyh-css/base.css">
+	<link rel="stylesheet" href="css/lyh-css/20-22.css">
+	<script src="js/lyh-js/animate.js"></script>
+	<script src="js/lyh-js/function.js"></script>
+	<script src="js/lyh-js/20-22.js"></script>
+</head>
+	<script type="text/javascript">   	
+   		(function (doc, win) {
+        	var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                
+//              750 代表设计稿的宽度,设计稿多款,他就改成多大
+                if(clientWidth>=750){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                }
+            };
+
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+   		
+    </script>
+<body>
+	<div class="banner">
+		<ul class="imgBox">
+			<li style='opacity: 1'><img src="lyh-img/图层-1.jpg" alt=""></img></li>
+			<li><img src="img/lyh-img/图层-121.jpg" alt=""></img></li>
+			<li><img src="img/lyh-img/图层-1211.jpg" alt=""></img></li>
+		</ul>
+
+		<ul class="btnBox">
+			<li style="background: #D41536;"></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</body>
+</html>

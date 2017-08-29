@@ -1,0 +1,135 @@
+.top{
+	width: 100%;
+	height: 0.4rem;
+	background-image: url('../img/lyh-img/zhuangtailan.png');
+	background-size: 100% 0.4rem;
+}
+.person_big{
+	background: #fff;
+	width: 100%;
+	height: 0.88rem;
+	box-sizing: border-box;
+	padding:0.20rem 0.4rem;
+	text-align: center;
+	justify-content: space-between;
+	display: flex;
+}
+.person_box1{
+	width: 0.48rem;
+	height: 0.48rem;
+	background-image: url('../img/lyh-img/person .jpg');
+	background-size: 0.48rem 0.48rem;
+}
+.person_box2{
+	display: block;
+	font-size: 0.4rem;
+	color: #1D1D1D;
+	display: flex;
+	font-family: "Helvetica";
+}
+.xiala{
+	width: 0.48rem;
+	height: 0.48rem;
+	 transform:rotate(180deg);
+}
+.person_box3{
+	width: 0.48rem;
+	height: 0.48rem;
+	background-image: url('../img/lyh-img/sousuo.png');
+	background-size: 0.48rem 0.48rem;
+
+}
+
+.main{
+	width: 100%;
+	height: 12.06rem;
+	background-image: url('../img/lyh-img/图层 1111.png');
+	background-size: 100% 12.06rem;
+	/* position: relative; */
+}
+.mask{
+	position: absolute;
+	top: 1.28rem;
+	left: 0;
+	width: 100%;
+	height:12.06rem;
+	background: rgba(0, 0, 0, 0.9);
+}
+.mask_tit{
+	width: 100%;
+	height: 1.41rem;
+	box-sizing: border-box;
+	padding: 0.54rem 0.77rem 0.45rem 0.77rem;
+}
+.mask_tit span{
+	display: block;
+	float: left;
+	margin-left: 1.65rem;
+	color: #fff;
+	font-family: "苹芳";
+	font-size: 0.36rem;
+	line-height: 0.42rem;
+}
+.tit_left{
+	width: 0.9rem;
+	height: 0.4rem;
+	float: left;
+	border: 1px solid #B7B7B7;
+	border-radius: 0.05rem;
+	font-family: "苹芳";
+	font-size: 0.24rem;
+	color:#B7B7B7 ;
+	line-height: 0.4rem;
+	text-align: center;
+}
+.yuan1{
+	width: 0.18rem;
+	height: 0.18rem;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 50%;
+}
+.yuan2{
+	width: 0.1rem;
+	height: 0.1rem;
+	margin: 0.1rem auto;
+	background: #fff;
+	border-radius: 50%;
+}
+.main_content{
+	width: 100%;
+	height: 6.48rem;
+	box-sizing: border-box;
+	padding: 0.7rem 0.77rem;
+}
+.main_content li{
+	margin-bottom: 0.9rem;
+	height: 0.3rem;
+	justify-content: space-between;
+	display: flex;
+}
+
+.main_content a{
+	font-family: "苹芳";
+	font-size: 0.24rem;
+	color:#B7B7B7 ;
+	line-height: 0.3rem;
+}
+.main_content1{
+	width: 100%;
+	height: 0.3rem;
+	box-sizing: border-box;
+	padding: 0 0.52rem;
+}
+.main_content1 li{
+	margin-bottom: 0.9rem;
+	height: 0.3rem;
+	justify-content: space-between;
+	display: flex;
+}
+.main_content1 a{
+	font-family: "苹芳";
+	font-size: 0.24rem;
+	color:#B7B7B7 ;
+	line-height: 0.3rem;
+}

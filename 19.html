@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>第19张</title>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/lyh-css/base.css">
+	<link rel="stylesheet" href="css/lyh-css/base (2).css">
+	<link rel="stylesheet" href="css/lyh-css/19.css">
+	<script src="js/lyh-js/animate.js"></script>
+	<script src="js/lyh-js/function.js"></script>
+</head>
+	<script type="text/javascript">   	
+   		(function (doc, win) {
+        	var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                
+//              750 代表设计稿的宽度,设计稿多款,他就改成多大
+                if(clientWidth>=750){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                }
+            };
+
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+   		
+    </script>
+<body>
+	<div class="top"></div>
+	<div class="person_big">
+		<div class="person_box1"></div>
+		<span class='person_box2'>WEB
+		<img class="xiala" src="img/lyh-img/sanjiao.png" alt=""></span>
+		<div class="person_box3"></div>
+	</div>
+	<div class="main"></div>
+	<div class="mask">
+		<div class="mask_tit">
+			<div class="tit_left">全 部</div>
+			<span>行 业</span>
+			<div style="float: right;"class="tit_left">最 热</div>
+		</div>
+		<div class="yuan1"></div>
+		<div class="yuan2"></div>
+		<ul class="main_content">
+			<li><a href="">电商</a><a href="">社交</a><a href="">游戏</a><a href="">动漫</a></li>
+			<li><a href="">工具</a><a href="">生活</a><a href="">健康</a><a href="">医疗</a></li>
+			<li><a href="">旅游</a><a href="">教育</a><a href="">购物</a><a href="">体育</a></li>
+			<li><a href="">儿童</a><a href="">参考</a><a href="">音乐</a><a href="">财务</a></li>
+			<li><a href="">娱乐</a><a href="">导航</a><a href="">效率</a><a href="">新闻</a></li>
+		</ul>
+		<ul class="main_content1">
+			<li><a href="">报刊杂志</a><a href="">美食佳饮</a><a href="">商品指南</a><a href="">摄像与录像</a></li>
+		</ul>
+
+
+	</div>
+</body>
+</html>

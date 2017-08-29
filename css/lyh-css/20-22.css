@@ -1,0 +1,50 @@
+*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.banner{
+		width: 7.5rem;
+		height: 13.34rem;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+	}
+	.banner>.imgBox{
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	.banner>.imgBox li{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		opacity: 0;
+		top: 0;
+	}
+	.banner>.imgBox li img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.banner>.btnBox{
+		width: 0.75rem;
+		height: 0.14rem;
+		box-sizing: border-box;
+		display: flex;
+		justify-content:space-between;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom:0.9rem;
+		margin: auto;
+		overflow: hidden;
+		z-index: 100;
+	}
+	.banner>.btnBox>li{
+		width:0.14rem;
+		height: 0.14rem;
+		border-radius: 50%;
+		background: #fff;
+	}
