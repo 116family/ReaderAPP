@@ -8,7 +8,7 @@ body{
 	width: 100%;
 	height: 0.4rem;
 	background: #fff;
-	background-image: url(../img/jn-image/zhuangtailan.png);
+	background-image: url(../../img/jn-image/zhuangtailan.png);
 	background-repeat: no-repeat;
 	background-size: 100% 0.4rem;
 }
@@ -53,20 +53,20 @@ body{
 	width: 0.58rem;
 	height: 0.58rem;
 	border-radius: 50%;
-	background-image: url(../img/jn-image/1.jpg);
+	background-image: url(../../img/jn-image/1.jpg);
 	background-size: 0.64rem 0.65rem;
 }
 .head .num1{
-	background-image: url(../img/jn-image/2.jpg);
+	background-image: url(../../img/jn-image/2.jpg);
 }
 .head .num2{
-	background-image: url(../img/jn-image/3.jpg);
+	background-image: url(../../img/jn-image/3.jpg);
 }
 .head .num3{
-	background-image: url(../img/jn-image/4.jpg);
+	background-image: url(../../img/jn-image/4.jpg);
 }
 .head .num4{
-	background-image: url(../img/jn-image/5.jpg);
+	background-image: url(../../img/jn-image/5.jpg);
 }
 .head .word{
 	width: 6.13rem;
