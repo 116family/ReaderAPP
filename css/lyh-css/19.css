@@ -66,7 +66,7 @@
 	float: left;
 	margin-left: 1.65rem;
 	color: #fff;
-	font-family: "苹芳";
+	font-family: "苹方";
 	font-size: 0.36rem;
 	line-height: 0.42rem;
 }
@@ -76,7 +76,7 @@
 	float: left;
 	border: 1px solid #B7B7B7;
 	border-radius: 0.05rem;
-	font-family: "苹芳";
+	font-family: "苹方";
 	font-size: 0.24rem;
 	color:#B7B7B7 ;
 	line-height: 0.4rem;
@@ -110,7 +110,7 @@
 }
 
 .main_content a{
-	font-family: "苹芳";
+	font-family: "苹方";
 	font-size: 0.24rem;
 	color:#B7B7B7 ;
 	line-height: 0.3rem;
@@ -128,7 +128,7 @@
 	display: flex;
 }
 .main_content1 a{
-	font-family: "苹芳";
+	font-family: "苹方";
 	font-size: 0.24rem;
 	color:#B7B7B7 ;
 	line-height: 0.3rem;
