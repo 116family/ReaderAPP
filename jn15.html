@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/jn-css/base.css">
+	<link rel="stylesheet" href="css/jn-css/jn15.css">
+	<script type="text/javascript">
+   		(function (doc, win) {
+        	var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                
+//              750 代表设计稿的宽度,设计稿多款,他就改成多大
+//	                if(clientWidth>=750){
+//	                    docEl.style.fontSize = '100px';
+//	                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+//	                }
+            };
+
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+	</script>
+</head>
+<body>
+  	<div class="cover">
+  		<div class="change">
+  			<span>拍照</span>
+  			<span>从手机相册选择</span>
+  			<span>查看高清大图</span>
+  			<span>取消</span>
+  		</div>
+  	</div>
+	<div class="status"></div>
+	<div class="person">
+		<a href=""><img src="img/jn-image/left.png" alt=""></a>
+		<span>个人资料</span>
+	</div>
+	<div class="head">
+		<span>头像</span>
+		<a href=""><div class="imag"></div></a>
+	</div>
+	<div class="name">
+		<span>名字</span>
+		<a href="">间谍活动</a>
+	</div>
+	<div class="tel">
+		<span>账号</span>
+		<a href="">183****2516</a>
+	</div>
+</body>
+</html>

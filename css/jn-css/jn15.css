@@ -1,0 +1,147 @@
+body{
+	background: #fff;
+	width: 7.5rem;
+	height: 13.34rem;
+	margin: 0 auto;
+	position: relative;
+}
+.cover{
+	width: 7.5rem;
+	height: 13.34rem;
+	background: rgba(0, 0, 0, .7);
+	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	
+}
+.cover .change{
+	width: 7.5rem;
+	height: 4.69rem;
+	/* background: plum; */
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+ .cover .change span{
+ 	display: block;
+ 	width: 100%;
+ 	height: 1.12rem;
+	font-size: 0.36rem;
+	color: #000;
+	background: #fff;
+	border-bottom: 0.01rem solid #A2A2A2;
+	text-align: center;
+	line-height: 1.12rem;
+}
+.cover .change span:nth-child(3){
+	border-bottom: none;
+}
+.cover .change span:nth-child(4){
+	border-bottom: none;
+	margin-top: 0.19rem;
+}
+.status{
+	width: 100%;
+	height: 0.4rem;
+	background: #fff;
+	background-image: url(../img/jn-image/zhuangtailan.png);
+	background-repeat: no-repeat;
+	background-size: 100% 0.4rem;
+}
+.person{
+	width: 100%;
+	height: 0.89rem;
+	/* background: red; */
+	text-align: center;
+	position: relative;
+	border-bottom: 0.02rem solid #E8E8E8; 
+}
+.person span{
+	font-size: 0.36rem;
+	color: #1D1D1D;
+	font-weight: 700;
+	position: absolute;
+	left: 3.02rem;
+	top: 0.3rem;
+}
+.person img{
+	width: 0.23rem;
+	height: 0.39rem;
+	font-weight: 700;
+	position: absolute;
+	left: 0.4rem;
+	top: 0.3rem;
+}
+.head{
+	width: 7.02rem;
+	margin: 0 auto;
+	height: 1.62rem;
+	border-bottom: 0.02rem solid #E8E8E8;
+	position: relative;
+}
+.head span{
+	text-align: left;
+	font-size: 0.36rem;
+	color: #626262;
+	position: absolute;
+	left: 0.16rem;
+	top: 0.55rem;
+}
+.head .imag{
+	width: 1.16rem;
+	height: 1.16rem;
+	border-radius: 50%;
+	background-size: 1.19rem 1.60rem;
+	background-image: url(../img/jn-image/touxiang.jpg);
+	background-position: 0 -1.85rem;
+	position: absolute;
+	top: 0.23rem;
+	right: 0.24rem;
+
+}
+.name{
+	width: 7.02rem;
+	height: 0.87rem;
+	margin: 0 auto;
+	border-bottom: 0.02rem solid #E8E8E8;
+	position: relative;
+}
+
+.name span{
+	font-size: 0.36rem;
+	color: #626262;
+	position: absolute;
+	left: 0.16rem;
+	top: 0.2rem;
+}
+.name a{
+	font-size: 0.36rem;
+	color: #9B9B9B;
+	position: absolute;
+	right: 0.16rem;
+	top: 0.2rem;
+}
+.tel{
+	width: 7.02rem;
+	height: 0.87rem;
+	margin: 0 auto;
+	border-bottom: 0.02rem solid #E8E8E8;
+	position: relative;
+}
+
+.tel span{
+	font-size: 0.36rem;
+	color: #626262;
+	position: absolute;
+	left: 0.16rem;
+	top: 0.2rem;
+}
+.tel a{
+	color: #9B9B9B;
+	font-size: 0.36rem;
+	position: absolute;
+	right: 0.16rem;
+	top: 0.2rem;
+}
