@@ -38,7 +38,15 @@ body{
 .cover .change span:nth-child(3){
 	border-bottom: none;
 }
-.cover .change span:nth-child(4){
+.cover .change a{
+	display: block;
+ 	width: 100%;
+ 	height: 1.12rem;
+	font-size: 0.36rem;
+	color: #000;
+	background: #fff;
+	text-align: center;
+	line-height: 1.12rem;
 	border-bottom: none;
 	margin-top: 0.19rem;
 }
