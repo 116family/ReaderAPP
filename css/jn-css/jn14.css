@@ -63,6 +63,7 @@ body{
 	font-size: 0.3rem;
 	background: #fff;
 	color: #737373;
+	position: absolute;
 	left:0;
 	top:0;
 }
