@@ -32,6 +32,8 @@
 	left: 0.4rem;
 }
 .login .top li:first-child img{
+	width: 0.23rem;
+	height: 0.39rem;
 	position: absolute;
 	top: 0.04rem;
 	left: 0;
@@ -57,6 +59,8 @@
 	right: 0.5rem;
 }
 .login .top li:last-child img{
+	width: 0.39rem;
+	height: 0.39rem;
 	position: absolute;
 	top: 0.04rem;
 	right: 0;
