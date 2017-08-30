@@ -47,6 +47,11 @@ body{
 	box-sizing: border-box;
 	padding-left: 0.1rem;
 }
+.cover .change a{
+	display:block;
+	width: 2.68rem;
+	height: 0.84rem;
+}
 .cover .change a input[type='button']{
 	width: 2.68rem;
 	height: 0.84rem;
