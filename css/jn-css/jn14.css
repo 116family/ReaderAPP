@@ -54,13 +54,17 @@ body{
 	border-top: 0.01rem solid #D1D1D1;
 	border-left: 0.01rem solid #D1D1D1;
 	background: #fff;
+	position:relative;
 	position: absolute;
 }
 .cover .change a input[type='button']{
 	width: 2.68rem;
 	height: 0.84rem;
 	font-size: 0.3rem;
+	background: #fff;
 	color: #737373;
+	left:0;
+	top:0;
 }
 .cover .change a:nth-child(3){
 	left: 0.36rem;
