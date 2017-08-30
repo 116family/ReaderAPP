@@ -3,6 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="x5-orientation" content="portrait | landscape" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
 	<link rel="stylesheet" href="css/yqq-css/yqq6.css">
 	<link rel="stylesheet" href="css/yqq-css/base.css">
 	<link rel="stylesheet" href="icon/yqqiconfont/iconfont/iconfont.css">
@@ -11,7 +17,7 @@
 <div class="header">	
 </div>
 <div class="nav">IWATCH交互特性</div>
-<div class="subnav"><img src="img/yqqimage/8.png" alt=""></div>
+<div class="subnav"><img src="img/yqqimage/8.png" alt="" style="width: 100%;height:3.41rem;"></div>
 <div class="first">
 	<div class="design">关于IWATCH的交互特性及使用情景</div>
 	<div class="picture">
@@ -26,7 +32,7 @@
 	<div class="jia"><a class="words2">+</a></div>
 </div>
 
-<div class="web"><img src="img/yqqimage/9.png" alt=""></div>
+<div class="web"><img src="img/yqqimage/9.png" alt="" style="width: 100%;height:3.73rem;"></div>
 <div class="star">
 	<div class="wenzi"><a class="zi">+“IWATCH THE MAIN INTERFACE IS DIVIDED INTO”</a></div>
 	<div class="wenzi1"><a class="zi1">——主要界面</a></div>
@@ -43,7 +49,7 @@
     <div class="display" >重压交互：</div>
     <div class="user" style="width:100%;height:1.45rem;">呼出情境菜单，最多可以放四个功能；<br>
 重压进入编辑模式；例如表盘主界面重压可以进入选择界面选<br>择表盘，也可以自定义表盘显示元素；</div>
-<div class="web"><img src="img/yqqimage/10.png" alt=""></div>
+<div class="web"><img src="img/yqqimage/10.png" alt="" style="width: 100%;height:3.41rem;"></div>
 <div class="star">
 	<div class="wenzi"><a class="zi">“GAULTIER,AZZEDLINE ALAIA, SONIA RYKIEL”</a></div>
 	<div class="wenzi1"><a class="zi1">——设计名言</a></div>
@@ -69,7 +75,7 @@
 		<div class="shou" style="margin-top: 0.4rem;">
 			<div class="icon" ><span class="iconfont icon-Shape-copy"></span></div>
 			<div class="item" style="margin-top: 0rem;"><span class="wenzi2"> 评论</span><span class="words4" >(28)</span></div>
-			<div class="icon" style="float: right;margin-top: 0rem;"><span class="iconfont icon-jiantou1"></span></div>
+			<div class="icon" style="float: right;margin-top: 0rem;"><a href="jn12.html" ><span class="iconfont icon-jiantou1"></span></a></div>
 		</div>
 		<div class="hu" style="width: 100%;height:2.9rem;border-bottom: 1px solid #E8E8E8;">
 			<div class="du">
@@ -90,7 +96,7 @@
 	</div>
 </div>
 <div class="bottom">
-	<div class="feed" style="float: left;"><span class="iconfont icon-jiantou2"></span></div>
+	<div class="feed" style="float: left;"><a href="zx1.html" ><span class="iconfont icon-jiantou2"></span></a></div>
 	<div class="feed" style="float: right;margin-right: 0.4rem;"><span class="iconfont icon-zan1" style="font-size: 0.4rem;"></span></div>
 	<div class="feed" style="float: right;margin-right: 0.4rem;"><span class="iconfont icon-star_off"></span></div>
 	<div class="feed" style="float: right;margin-right: 0.4rem;"><span class="iconfont icon-pinglun"></span></div>
@@ -105,11 +111,11 @@
                 if (!clientWidth) return;
                 
 //              750 代表设计稿的宽度,设计稿多款,他就改成多大
-                if(clientWidth>=750){
-                    docEl.style.fontSize = '100px';
-                }else{
+                // if(clientWidth>=750){
+                //     docEl.style.fontSize = '100px';
+                // }else{
                     docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
-                }
+                // }
             };
 
 	        if (!doc.addEventListener) return;

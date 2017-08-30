@@ -3,6 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="x5-orientation" content="portrait | landscape" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
 	<link rel="stylesheet" href="css/yqq-css/yqq5.css">
 	<link rel="stylesheet" href="css/yqq-css/base.css">
 	<link rel="stylesheet" href="icon/yqqiconfont/iconfont/iconfont.css">
@@ -11,7 +17,7 @@
 <div class="header">	
 </div>
 <div class="nav">网页设计小技巧</div>
-<div class="subnav"><img src="img/yqqimage/5.png" alt=""></div>
+<div class="subnav"><img src="img/yqqimage/5.png" alt="" style="width: 100%;height:3.41rem;"></div>
 <div class="first">
 	<div class="design">网页设计中，图片常用的五点技巧</div>
 	<div class="picture">
@@ -26,7 +32,7 @@
 	<div class="jia"><a class="words2">+</a></div>
 </div>
 
-<div class="web"><img src="img/yqqimage/6.png" alt=""></div>
+<div class="web"><img src="img/yqqimage/6.png" alt="" style="width: 100%;height:3.73rem;"></div>
 <div class="star">
 	<div class="wenzi"><a class="zi">+“CREATE IMMERSIVE EXPERIENCE”</a></div>
 	<div class="wenzi1"><a class="zi1">——时下流行</a></div>
@@ -44,7 +50,7 @@
     </div>
     <div class="display" >四.文字排版</div>
     <div class="user" style="width:100%;height:1.45rem;">精心设计的排版能够为你的品牌提升个性，当这些排版和图片搭配到一起的时候，整个设计的形式感和表现力就有了明显的提升。文本的样式和其中包含的信息，这是最佳的匹配。</div>
-<div class="web"><img src="img/yqqimage/7.png" alt=""></div>
+<div class="web"><img src="img/yqqimage/7.png" alt="" style="width: 100%;height:3.41rem;"></div>
 <div class="star">
 	<div class="wenzi"><a class="zi">“THE HE TECHNIQUE OF WEB DESIGN COLOR OVERLAY”</a></div>
 	<div class="wenzi1"><a class="zi1">——设计手法</a></div>
@@ -72,7 +78,7 @@
 		<div class="shou" style="margin-top: 0.4rem;">
 			<div class="icon" ><span class="iconfont icon-Shape-copy"></span></div>
 			<div class="item" style="margin-top: 0rem;"><span class="wenzi2"> 评论</span><span class="words4" >(28)</span></div>
-			<div class="icon" style="float: right;margin-top: 0rem;"><span class="iconfont icon-jiantou1"></span></div>
+			<div class="icon" style="float: right;margin-top: 0rem;"><a href="jn12.html" ><span class="iconfont icon-jiantou1"></span></a></div>
 		</div>
 		<div class="hu" style="width: 100%;height:2.9rem;border-bottom: 1px solid #E8E8E8;">
 			<div class="du">
@@ -93,7 +99,7 @@
 	</div>
 </div>
 <div class="bottom">
-	<div class="feed" style="float: left;"><span class="iconfont icon-jiantou2"></span></div>
+	<div class="feed" style="float: left;"><a href="zx1.html" ><span class="iconfont icon-jiantou2"></span></a></div>
 	<div class="feed" style="float: right;margin-right: 0.4rem;"><span class="iconfont icon-zan1" style="font-size: 0.4rem;"></span></div>
 	<div class="feed" style="float: right;margin-right: 0.4rem;"><span class="iconfont icon-star_off"></span></div>
 	<div class="feed" style="float: right;margin-right: 0.4rem;"><span class="iconfont icon-pinglun"></span></div>
@@ -108,11 +114,11 @@
                 if (!clientWidth) return;
                 
 //              750 代表设计稿的宽度,设计稿多款,他就改成多大
-                if(clientWidth>=750){
-                    docEl.style.fontSize = '100px';
-                }else{
+                // if(clientWidth>=750){
+                //     docEl.style.fontSize = '100px';
+                // }else{
                     docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
-                }
+                // }
             };
 
 	        if (!doc.addEventListener) return;

@@ -8,7 +8,7 @@ body{
 .header{
 	width: 100%;
 	height: 0.4rem;
-	background-image: url(../../yqqimage/1.png);
+	background-image: url(../../img/yqqimage/1.png);
 	background-repeat: no-repeat;
 	/* background-position: center; */
     background-size: 100% 0.4rem;
@@ -21,8 +21,8 @@ body{
 	font-weight: bold;
 	text-align: center;
 	color: #000;
-	font-family: 平方;
-	line-height:90px;
+	font-family: 苹方;
+	line-height:0.9rem;
 }
 .subnav{
 	width: 100%;
@@ -36,15 +36,15 @@ body{
 }
 .first .design{
 	width: 100%;
-	height: 90px;
-	padding-top: 40px;
+	height: 0.9rem;
+	padding-top: 0.4rem;
 	box-sizing: border-box;
 	/* background: green; */
-	font-size: 26px;
+	font-size: 0.26rem;
 	font-weight: bolder;
 	color: #000;
-	font-family: 平方;
-	line-height:40px;
+	font-family: 苹方;
+	line-height:0.4rem;
 	text-align: center;
 }
 .first .picture{
@@ -64,14 +64,14 @@ body{
 	color: #6D6D6D;
 	text-align: center;
 	line-height: 0.36rem;
-	font-family: 平方;
+	font-family: 苹方;
 }
 .picture .two{
 	width: 1.82rem;
 	height:0.4rem;
 	/* background: orange; */
 	margin: auto;
-	font-family: 平方;
+	font-family: 苹方;
 	font-size: 0.2rem;
 	color: #B7B7B7;
 	text-align: center;
@@ -86,7 +86,7 @@ body{
 	box-sizing: border-box;
 	color: #000;
 	font-size: 0.3rem;
-	font-family: 平方;
+	font-family: 苹方;
 }
 .first .shou{
 	width: 100%;
@@ -101,13 +101,13 @@ body{
 	color: #000;
 	font-weight: bolder;
 	float: left;
-	font-family: 平方;
+	font-family: 苹方;
 }
 .first .shou .words1{
 	font-size: 0.24rem;
 	color: #000;
 	float: left;
-	font-family: 平方;
+	font-family: 苹方;
 }
 .first .heng{
 	width: 100%;
@@ -119,7 +119,7 @@ body{
 	color: #959595;
 	float: left;
 	line-height: 0.8rem;
-	font-family: 平方;
+	font-family: 苹方;
 }
 .first .tea{
 	width: 100%;
@@ -129,7 +129,7 @@ body{
 	font-size: 0.24rem;
 	float: left;
 	color: #626262;
-	font-family: 平方;
+	font-family: 苹方;
 }
 .first .jia{
 	width: 100%;
@@ -143,12 +143,12 @@ body{
 	color: #1D1D1D;
 	float: right;
 	font-size: 0.28rem;
-	font-family: 平方;
+	font-family: 苹方;
 }
 .web{
 	width: 100%;
 	height: 3.74rem;
-	background: green;
+	/* background: green; */
 }
 .star{
 	width: 100%;
@@ -167,7 +167,7 @@ body{
 	float:right;
 	font-size: 0.24rem;
 	line-height: 0.5rem;
-	font-family: 平方;
+	font-family: 苹方;
 }
 .star .wenzi1{
 	width: 100%;
@@ -182,7 +182,7 @@ body{
 	line-height: 0.3rem;
 	font-style: italic;
 	color: #9D9D9D;
-	font-family: 平方;
+	font-family: 苹方;
 }
 .display{
 	width: 100%;
@@ -190,7 +190,7 @@ body{
 	/* background: green; */
 	color: #000;
 	font-size: 0.3rem;
-	font-family: 平方;
+	font-family: 苹方;
 	padding-left: 0.4rem;
 	padding-right:0.4rem;
 	box-sizing: border-box;
@@ -199,7 +199,7 @@ body{
 	/* background:red; */
 	font-size: 0.24rem;
 	color: #626262;
-	font-family: 平方;
+	font-family: 苹方;
 	padding-left: 0.4rem;
 	padding-right:0.4rem;
 	box-sizing: border-box;
@@ -315,7 +315,7 @@ body{
 	font-size:0.3rem;
 	color: #000; 
 	line-height: 0.6rem;
-	font-family: 平方;
+	font-family: 苹方;
 	font-weight: bolder;
 }
 .du .wode{
@@ -332,7 +332,7 @@ box-sizing: border-box;
 font-size:0.26rem;
 color: #626262; 
 line-height: 0.54rem;
-font-family: 平方;
+font-family: 苹方;
 }
 .bottom{
 	width: 100%;

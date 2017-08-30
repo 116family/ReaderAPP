@@ -5,14 +5,14 @@ body{
 .header{
 	width: 7.5rem;
 	height: 0.4rem;
-	background-image: url(../../yqqimage/1.png);
+	background-image: url(../../img/yqqimage/1.png);
 	background-repeat: no-repeat;
 	/* background-position: center; */
     background-size: 100% 0.4rem;
 }
 
 .nav{
-	width: 7.5rem;
+	width: 100%;
 	height: 0.9rem;
 	/* background: red; */
 	font-size: 0.36rem;
@@ -20,13 +20,13 @@ body{
 	text-align: center;
 	color: #000;
 	font-family: 苹方;
-	line-height:90px;
+	line-height:0.9rem;
 }
 
 .subnav{
 	width: 100%;
 	height: 3.4rem;
-	background: yellow;
+	/* background: yellow; */
 }
 .first{
 	width: 100%;
@@ -35,15 +35,15 @@ body{
 }
 .first .design{
 	width: 100%;
-	height: 90px;
-	padding-top: 40px;
+	height: 0.9rem;
+	padding-top: 0.4rem;
 	box-sizing: border-box;
 	/* background: green; */
-	font-size: 26px;
+	font-size: 0.26rem;
 	font-weight: bolder;
 	color: #000;
 	font-family: 苹方;
-	line-height:40px;
+	line-height:0.4rem;
 	text-align: center;
 }
 .first .picture{
@@ -147,7 +147,7 @@ body{
 .web{
 	width: 100%;
 	height: 3.74rem;
-	background: green;
+	/* background: green; */
 }
 .star{
 	width: 100%;

@@ -8,7 +8,7 @@ body{
 .header{
 	width: 100%;
 	height: 0.4rem;
-	background-image: url(../../yqqimage/1.png);
+		background-image: url(../../img/yqqimage/1.png);
 	background-repeat: no-repeat;
 	/* background-position: center; */
     background-size: 100% 0.4rem;
@@ -44,9 +44,9 @@ body{
 
 }
 .nav .qx{
-	width: 1.1rem;
+	width: 1rem;
 	height: 0.6rem;
-	float: left;
+	float: right;
 	/* background: pink; */
 	margin-top: 0.15rem;
 	text-align: center;
@@ -87,23 +87,28 @@ line-height: 0.26rem;
 /* margin-top: 10px; */
 }
 .hot .select{
-	width: 2.94rem;
-	height: 0.28rem;
+	width: 100%;
+	height: 0.3rem;
 	float: left;
 	background: #fff;
 	position: relative;
-	margin-left: -0.04rem;
-	padding-left: 2.08rem;
-	padding-right:2.08rem;
+	/* margin-left: -0.04rem; */
+	padding-left:28%;
+	padding-right:20%;
 	box-sizing: border-box;
+}
+.select img{
+	width: 2.92rem;
+	height: 0.27rem;
 }
 .hot .tab{
 	font-size: 0.2rem;
 	color: #000;
 	line-height: 0.2rem;
 	width: 100%; 
-	height: 0.2rem;
+	height: 0.4rem;
 	float: left;
+	margin-top: 0.4rem;
 	/* background: pink; */
 	text-align: center;
 	font-family: 苹方;
@@ -113,11 +118,11 @@ line-height: 0.26rem;
 	width: 0.23rem;
 	height: 0.23rem;
 	float: left;
-	margin-left: 3.52em;
+	margin-left: 3.3em;
 	/* background: yellow; */
 	position: relative;
 	font-family: 苹方;
-	margin-top: 0.2rem;
+	/* margin-top: 0.2rem; */
 }
 .san img{
 	position: absolute;
@@ -130,6 +135,7 @@ line-height: 0.26rem;
 	height: 2rem;
 	/* background: yellow; */
 	/* border-bottom: 1px solid #E8E8E8; */
+	margin-top: 0.2rem;
 }
 .card .one{
 	width: 100%;
