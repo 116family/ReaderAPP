@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/yqq-css/yqq4.css">
+	<link rel="stylesheet" href="css/yqq-css/base.css">
+</head>
+<body>
+<div class="header">	
+</div>
+<div class="nav">
+	<div class="want">
+		<div class="tu" style="margin-right: 0.08rem;"></div>HI！你想要的都在这里. . .
+	</div>
+	<div class="qx">取消</div>
+</div>
+<div class="subnav" >
+	<div class="hot">
+		<div class="sou">热 <span>|</span> 门 <span>|</span> 搜 <span>|</span> 索</div>
+		<div class="select"><img src="img/yqqimage/3.png" alt="" style="position:absolute;"></div>
+		<div class="tab"> T	 O  P  S  E  A  R  C  H </div>
+		<div class="san"><img src="img/yqqimage/4.png" alt=""></div>
+	</div>
+	<div class="card" style="border-bottom: 1px solid #E8E8E8;">
+		<ul class="one" style="padding-left: 1.2rem;padding-right: 1.2rem; margin-bottom: 0.24rem;">
+			<li class="box">抽屉式</li>
+			<li class="box">瀑布流</li>
+			<li class="box">卡片式</li>
+		</ul>
+		<ul class="one" style="padding-left: 0.5rem;padding-right: 0.5rem; margin-bottom: 0.24rem;">
+			<li class="box">个人主页</li>
+			<li class="box">设计要素</li>
+			<li class="box">APP</li>
+			<li class="box">登录页面</li>
+		</ul>
+		<ul class="one" style="padding-left: 1.2rem;padding-right: 1.2rem; ">
+			<li class="box">排行榜</li>
+			<li class="box">注册页面</li>
+			<li class="box">WATCH</li>
+		</ul>
+	</div>
+</div>
+<div class="subnav">
+	<div class="hot">
+		<div class="sou">历 <span>|</span>史 <span>|</span> 搜  <span>|</span> 索</div>
+		<div class="select"><img src="img/yqqimage/3.png" alt="" style="position:absolute;"></div>
+		<div class="tab"> S E A R C H H I S T O R Y </div>
+		<div class="san"><img src="img/yqqimage/4.png" alt=""></div>
+	</div>
+	<div class="card">
+		<ul class="one" style="padding-left: 1.2rem;padding-right: 1.2rem; margin-bottom: 0.24rem;">
+			<li class="box">抽屉式</li>
+			<li class="box">瀑布流</li>
+			<li class="box">卡片式</li>
+		</ul>
+		<ul class="one" style="padding-left: 0.5rem;padding-right: 0.5rem; margin-bottom: 0.24rem;">
+			<li class="box">个人主页</li>
+			<li class="box">设计要素</li>
+			<li class="box">APP</li>
+			<li class="box">登录页面</li>
+		</ul>
+		<ul class="one" style="padding-left: 1.2rem;padding-right: 1.2rem; ">
+			<li class="box">排行榜</li>
+			<li class="box">注册页面</li>
+			<li class="box">WATCH</li>
+		</ul>
+	</div>
+
+</div>
+<div class="bottom">
+	<div class="gang"></div>
+	<div class="gang1"></div>
+</div>
+
+</body>
+<script type="text/javascript">   	
+   		(function (doc, win) {
+        	var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                
+//              750 代表设计稿的宽度,设计稿多款,他就改成多大
+                if(clientWidth>=750){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                }
+            };
+
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+   		
+    </script>
+
+</html>

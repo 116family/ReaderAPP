@@ -1,0 +1,349 @@
+body{
+	width: 7.5rem;
+	height: 13.34rem;
+}
+.header{
+	width: 7.5rem;
+	height: 0.4rem;
+	background-image: url(../../yqqimage/1.png);
+	background-repeat: no-repeat;
+	/* background-position: center; */
+    background-size: 100% 0.4rem;
+}
+
+.nav{
+	width: 7.5rem;
+	height: 0.9rem;
+	/* background: red; */
+	font-size: 0.36rem;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	font-family: 苹方;
+	line-height:90px;
+}
+
+.subnav{
+	width: 100%;
+	height: 3.4rem;
+	background: yellow;
+}
+.first{
+	width: 100%;
+	height: 4.62rem;
+	/* background: pink; */
+}
+.first .design{
+	width: 100%;
+	height: 90px;
+	padding-top: 40px;
+	box-sizing: border-box;
+	/* background: green; */
+	font-size: 26px;
+	font-weight: bolder;
+	color: #000;
+	font-family: 苹方;
+	line-height:40px;
+	text-align: center;
+}
+.first .picture{
+	width: 100%;
+	height: 1.6rem;
+	/* background: red; */
+
+}
+.picture .one{
+	width: 100%;
+	height: 0.84rem;
+	/* background: lime; */
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	box-sizing: border-box;
+	font-size: 0.24rem;
+	color: #6D6D6D;
+	text-align: center;
+	line-height: 0.36rem;
+	font-family: 苹方;
+}
+.picture .two{
+	width: 1.82rem;
+	height:0.4rem;
+	/* background: orange; */
+	margin: auto;
+	font-family: 苹方;
+	font-size: 0.2rem;
+	color: #B7B7B7;
+	text-align: center;
+	line-height: 0.4rem;
+	border-top: 0.01rem solid #B7B7B7;
+}
+.first .eye{
+	width: 100%;
+	height: 0.4rem;
+	/* background: #eee; */
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+	color: #000;
+	font-size: 0.3rem;
+	font-family: 苹方;
+}
+.first .shou{
+	width: 100%;
+	height:0.24rem;
+	/* background: blue; */
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+	
+}
+.first .shou .words{
+	font-size: 0.24rem;
+	color: #000;
+	font-weight: bolder;
+	float: left;
+	font-family: 苹方;
+}
+.first .shou .words1{
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	font-family: 苹方;
+}
+.first .heng{
+	width: 100%;
+	height: 0.8rem;
+	/* background: red; */
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+	font-size: 0.22rem;
+	color: #959595;
+	float: left;
+	line-height: 0.8rem;
+	font-family: 苹方;
+}
+.first .tea{
+	width: 100%;
+	height: 0.3rem;
+	padding-left: 0.4rem;
+	box-sizing: border-box;
+	font-size: 0.24rem;
+	float: left;
+	color: #626262;
+	font-family: 苹方;
+}
+.first .jia{
+	width: 100%;
+	height: 0.30rem;
+	float: left;
+	/* background: orange; */
+	padding-right: 0.42rem;
+	box-sizing: border-box;
+}
+.first .words2{
+	color: #1D1D1D;
+	float: right;
+	font-size: 0.28rem;
+	font-family: 苹方;
+}
+.web{
+	width: 100%;
+	height: 3.74rem;
+	background: green;
+}
+.star{
+	width: 100%;
+	height: 0.9rem;
+	background: #fff;
+	padding-bottom: 0.5rem;
+}
+.star .wenzi{
+	width: 100%;
+	height: 0.5rem;
+	/* background: red; */
+	padding-right: 0.4rem;
+	box-sizing: border-box;
+}
+.wenzi .zi{
+	float:right;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	font-family: 苹方;
+}
+.star .wenzi1{
+	width: 100%;
+	height: 0.3rem;
+	/* background: red; */
+	padding-right: 0.4rem;
+	box-sizing: border-box;
+}
+.wenzi1 .zi1{
+	float:right;
+	font-size: 0.22rem;
+	line-height: 0.3rem;
+	font-style: italic;
+	color: #9D9D9D;
+	font-family: 苹方;
+}
+.display{
+	width: 100%;
+	height: 0.5rem;
+	/* background: green; */
+	color: #000;
+	font-size: 0.3rem;
+	font-family: 苹方;
+	padding-left: 0.4rem;
+	padding-right:0.4rem;
+	box-sizing: border-box;
+}
+.user{
+	/* background:red; */
+	font-size: 0.24rem;
+	color: #626262;
+	font-family: 苹方;
+	padding-left: 0.4rem;
+	padding-right:0.4rem;
+	box-sizing: border-box;
+}
+.zan{
+	width: 100%;
+	height: 2.28rem;
+	/* background: pink; */
+	border-top: 1px solid #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+}
+.zan .shou{
+	width: 100%;
+	height: 1.1rem;
+	/* background: green; */
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+	box-sizing: border-box;
+}
+.icon{
+	width: 0.42rem;
+	height: 0.4rem;
+	/* background: yellow; */
+	float: left;
+	/* margin-top: 0.4rem; */
+}
+.item{
+	width: 1.2rem;
+	height: 0.4rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.4rem;
+}
+.item .wenzi2{
+	font-size: 0.3rem;
+	color: #000;
+	float: left;
+	line-height: 0.4rem;
+}
+.item .words4{
+	font-size: 0.3rem;
+	color: #626262;
+	float: left;
+	line-height: 0.4rem;
+}
+.zan .tuku{
+	width: 100%;
+	height: 1.1rem;
+	/* background: plum; */
+	float: left;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+	box-sizing: border-box;
+}
+
+.tuku .rice{
+	width: 0.76rem;
+	height: 0.76rem;
+	border-radius: 50%;
+	background: red;
+	margin-left: 0.1rem;
+	float: left;
+	position: relative;
+}
+.rice img{
+   width: 0.76rem;
+	height: 0.76rem;
+	border-radius: 50%;
+	position: absolute;
+}
+.pinglun{
+	width: 100%;
+	height: 5.8rem;
+	/* background:yellow; */
+	/* border-bottom: 1px solid #E8E8E8; */
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+	box-sizing: border-box;
+}
+.pinglun .less{
+	width: 100%;
+	height: 3rem;
+	/* background: green; */
+}
+.pinglun .hu{
+	float: left;
+	/* background: blue; */
+}
+.hu .du{
+	width: 100%;
+	height: 0.6rem;
+	float: left;
+	/* background: orange; */
+	margin-top: 0.4rem;
+}
+.du .be{
+	width: 0.56rem;
+	height: 0.56rem;
+	border-radius: 50%;
+	background: yellow;
+	float: left;
+	margin-right: 0.12rem;
+	position: relative;
+}
+.be img{
+   width: 0.56rem;
+	height: 0.56rem;
+	border-radius: 50%;
+	position: absolute;
+}
+.du .yin{
+	float: left;
+	font-size:0.3rem;
+	color: #000; 
+	line-height: 0.6rem;
+	font-family: 苹方;
+	font-weight: bolder;
+}
+.du .wode{
+	float: right;
+	font-size:0.2rem;
+	color: #B6B6B6; 
+	line-height: 0.6rem;
+}
+.hu .jie{
+padding-left: 0.72rem;
+/* background:red; */
+float: left;
+box-sizing: border-box;
+font-size:0.26rem;
+color: #626262; 
+line-height: 0.54rem;
+font-family: 苹方;
+}
+.bottom{
+	width: 100%;
+	height: 0.7rem;
+	/* background: red; */
+	box-sizing: border-box;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+.bottom .feed{
+	width: 0.44rem;
+	height: 0.48rem;
+	/* background: green; */
+	margin-top: 0.1rem;
+}
