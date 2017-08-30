@@ -30,6 +30,8 @@
 	left: 0.4rem;
 }
 .login .top li:first-child img{
+	width:100%;
+	height:100%;
 	position: absolute;
 	top: 0.04rem;
 	left: 0;
