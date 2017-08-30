@@ -24,6 +24,7 @@ body{
 	/* background: yellow; */
 	background-image: url('../../img/zx1img/person .jpg');
 	background-repeat: no-repeat;
+	background-size:0.48rem 0.48rem;
 
 }
 .person_box2{
@@ -43,6 +44,7 @@ body{
 	height: 0.48rem;
 	/* background: green; */
 	background-image: url('../../img/zx1img/sousuo.png');
+	background-size:0.48rem 0.48rem;
 	background-repeat: no-repeat;
 	z-index: 300;
 }
